@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1173 Marketing | AI-Powered SaaS Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+  /* Style for the rotating text */
+  .rotating-text {
+    color: #00FF00;
+    display: inline-block;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    font-weight: inherit;
+    font-size: 6rem;
+    font-family: inherit;
+  }
+
+  @media (max-width: 768px) {
+    .rotating-text {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .rotating-text {
+      font-size: 3rem;
+    }
+  }
+</style>
+ <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+	
+        .logo-carousel {
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .logo-track {
+            display: flex;
+            animation: scroll 30s linear infinite;
+        }
+        
+        .logo-track:hover {
+            animation-play-state: paused;
+        }
+        
+        .logo-container {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .logo {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+        }
+        
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+        
+        /* Logo background colors */
+        .cash-app { background-color: #00D632; }
+        .meta { background-color: #0080FF; }
+        .slack { background-color: #4A154B; }
+        .apple { background-color: #A9A9A9; }
+        .spotify { background-color: #1DB954; }
+        .zoom { background-color: #F7F8FA; }
+        .figma { background-color: #F24E1E; }
+        .zendesk { background-color: #03363D; }
+        .reddit { background-color: #FF4500; }
+        .trello { background-color: #0079BF; }
+        .paypal { background-color: #003087; }
+        .framer { background-color: #0055FF; }
+        .youtube { background-color: #FF0000; }
+        .uber { background-color: #8B0000; }
+        .coinbase { background-color: #0052FF; }
+        .gdrive { background-color: #FFFFFF; }
+        .mailchimp { background-color: #FFE01B; }
+        .buffer { background-color: #2C4BFF; }
+        .github { background-color: #24292e; }
+        .zapier { background-color: #FF4A00; }
+        .squarespace { background-color: #4A154B; }
+        .duolingo { background-color: #58CC02; }
+        .facebook { background-color: #1877F2; }
+        .stripe { background-color: #635BFF; }
+        .tiktok { background-color: #66008C; }
+        .netflix { background-color: #E50914; }
+        .discord { background-color: #5865F2; }
+    </style>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #f3f3f3;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+        }
+        
+        .card-glass {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.03);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            transition: width 0.3s ease;
+        }
+
+.nav-link:hover {
+  color: #39ff14;
+}
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navigation -->
+
+    <nav class="bg-black bg-opacity-20 backdrop-blur-md sticky top-0 z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <span class="text-3xl font-bold text">1173 Marketing AI Solutions </span>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="https://1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-white">Home</a>
+                            <a href="https://sales.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Solutions</a>
+          
+
+                  <a href="https://sales.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Pricing</a>
+                            <a href="https://sales.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Resources</a>
+                            <a href="https://1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-4 flex items-center md:ml-6">
+                        <a href="https://sales.1173mktg.com" class="px-4 py-2 rounded-md text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all">Get Started</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400  hover:bg-gray-700 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden gradient-bg" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="https://1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-white">Home</a>
+                <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Solutions</a>
+                <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Pricing</a>
+                <a href="https://1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Case Studies</a>
+                <a href="https://1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Resources</a>
+                <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 mt-2">Get Started</a>
+            </div>
+        </div>
+    </nav>
+	<!-- Hero Section -->
+	<br>
+
+ <div class="logo-carousel">
+        <div class="logo-track">
+
+            <!-- First set of logos -->
+
+            <div class="logo-container cash-app">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M17.5,8.2c-0.7,0.7-1.8,0.7-2.4,0c-0.7-0.7-0.7-1.8,0-2.4
+                    c0.7-0.7,1.8-0.7,2.4,0C18.2,6.4,18.2,7.5,17.5,8.2z M12,19.2c-1.9,0-3.5-1.6-3.5-3.5c0-0.8,0.3-1.5,0.7-2.1l6.4-9.2
+                    c0.3-0.4,0.8-0.2,0.9,0.2c0,0.1,0,0.2,0,0.3v5.2c1.3,0.3,2.3,1.5,2.3,2.9c0,1.7-1.3,3-3,3c-0.2,0-0.4,0-0.6-0.1
+                    C14.5,18.1,13.3,19.2,12,19.2z M4.5,15.8c0.7-0.7,1.8-0.7,2.4,0c0.7,0.7,0.7,1.8,0,2.4c-0.7,0.7-1.8,0.7-2.4,0
+                    C3.8,17.5,3.8,16.4,4.5,15.8z"></path>
+                </svg>
+            </div>
+            <div class="logo-container meta">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12.53.02C13.84 0 15.14.01 16.44.02c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path>
+                </svg>
+            </div>
+            <div class="logo-container slack">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M6.194 14.644c0 1.16-.943 2.107-2.103 2.107-1.16 0-2.103-.947-2.103-2.107 0-1.16.943-2.106 2.103-2.106h2.103v2.106zm1.061 0c0-1.16.944-2.106 2.104-2.106 1.16 0 2.103.946 2.103 2.106v5.274c0 1.16-.943 2.107-2.103 2.107-1.16 0-2.104-.947-2.104-2.107v-5.274zm2.104-8.455c-1.16 0-2.104-.946-2.104-2.106 0-1.16.944-2.107 2.104-2.107 1.16 0 2.103.947 2.103 2.107v2.106h-2.103zm0 1.06c1.16 0 2.103.946 2.103 2.107 0 1.16-.943 2.107-2.103 2.107h-5.278c-1.16 0-2.103-.947-2.103-2.107 0-1.16.943-2.107 2.103-2.107h5.278zm8.441 2.107c0-1.16.944-2.107 2.104-2.107 1.16 0 2.103.947 2.103 2.107 0 1.16-.943 2.107-2.103 2.107h-2.104v-2.107zm-1.061 0c0 1.16-.944 2.107-2.104 2.107-1.16 0-2.103-.947-2.103-2.107v-5.274c0-1.16.943-2.107 2.103-2.107 1.16 0 2.104.947 2.104 2.107v5.274zm-2.104 8.455c1.16 0 2.104.947 2.104 2.107 0 1.16-.944 2.107-2.104 2.107-1.16 0-2.103-.947-2.103-2.107v-2.107h2.103zm0-1.06c-1.16 0-2.103-.947-2.103-2.107 0-1.16.943-2.107 2.103-2.107h5.278c1.16 0 2.103.947 2.103 2.107 0 1.16-.943 2.107-2.103 2.107h-5.278z"></path>
+                </svg>
+            </div>
+            <div class="logo-container apple">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zm3.47-3.345c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path>
+                </svg>
+            </div>
+            <div class="logo-container spotify">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.48.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path>
+                </svg>
+            </div>
+            <div class="logo-container zoom">
+                <svg class="logo" viewBox="0 0 24 24" fill="#2D8CFF">
+                    <path d="M24 11.953v.97c0 2.11-1.714 3.824-3.824 3.824h-9.884c-.762 0-1.376-.622-1.376-1.376v-6.47c0-.747.605-1.352 1.352-1.352h10.015c2.067-.023 3.717 1.627 3.717 3.653v.751zm-17.647-4.23c.762 0 1.376.622 1.376 1.376v6.47c0 .747-.605 1.352-1.352 1.352H1.47C.657 16.922 0 16.265 0 15.452V8.424C0 7.561.692 6.87 1.555 6.87h4.798v.853zm11.048 2.248c0 1.67-2.249 1.935-2.249.229-.007-1.676 2.249-1.96 2.249-.229zm4.45 0c0 1.67-2.248 1.929-2.248.229 0-1.67 2.248-1.946 2.248-.229z"></path>
+                </svg>
+            </div>
+            <div class="logo-container figma">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"></path>
+                </svg>
+            </div>
+            <div class="logo-container zendesk">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 18.29c-3.477 0-6.29-2.813-6.29-6.29H12v6.29zm0-6.29H5.71c0-3.477 2.813-6.29 6.29-6.29V12zm6.29 0H12V5.71c3.477 0 6.29 2.813 6.29 6.29z"></path>
+                </svg>
+            </div>
+            <div class="logo-container reddit">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"></path>
+                </svg>
+            </div>
+            <div class="logo-container trello">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M21 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.3 3 3 3h18c1.7 0 3-1.3 3-3V3c0-1.7-1.3-3-3-3zM10.44 18.18c0 .795-.645 1.44-1.44 1.44H4.56c-.795 0-1.44-.646-1.44-1.44V4.56c0-.795.645-1.44 1.44-1.44H9c.795 0 1.44.645 1.44 1.44v13.62zm10.44-6c0 .794-.645 1.44-1.44 1.44H15c-.795 0-1.44-.646-1.44-1.44V4.56c0-.795.646-1.44 1.44-1.44h4.44c.795 0 1.44.645 1.44 1.44v7.62z"></path>
+                </svg>
+            </div>
+            <div class="logo-container paypal">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.254-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.563.563 0 0 0-.556.479l-1.187 7.527h-.506l-.24 1.516a.56.56 0 0 0 .554.647h3.882c.46 0 .85-.334.922-.788.06-.26.76-4.852.816-5.09a.932.932 0 0 1 .923-.788h.58c3.76 0 6.705-1.528 7.565-5.946.36-1.847.174-3.388-.777-4.471z"></path>
+                </svg>
+            </div>
+            <div class="logo-container framer">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M4 0h16v8h-8zm0 8h8l8 8H4zm0 8h8v8z"></path>
+                </svg>
+            </div>
+            <div class="logo-container youtube">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+                </svg>
+            </div>
+            <div class="logo-container uber">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.824a9.176 9.176 0 1 1 0 18.352 9.176 9.176 0 0 1 0-18.352zm0 1.933c-3.681 0-7.243 2.659-7.243 6.195h3.622c0-1.262.938-2.61 3.621-2.61s3.622 1.616 3.622 2.61h3.621c0-3.536-3.561-6.195-7.243-6.195z"></path>
+                </svg>
+            </div>
+            <div class="logo-container coinbase">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22.5C6.201 22.5 1.5 17.799 1.5 12S6.201 1.5 12 1.5 22.5 6.201 22.5 12 17.799 22.5 12 22.5zm-.75-12.77v-.077c0-.42.343-.762.765-.762h1.646c.375 0 .723.297.723.75v.06a.749.749 0 0 1-.75.752h-1.619c-.422 0-.765-.342-.765-.762v.039zm6.09.539a.755.755 0 0 0-.765-.751h-1.646c-.375 0-.724.297-.724.75v.06c0 .414.348.75.75.75h1.619c.422 0 .766-.341.766-.761v-.048zM12 6.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5zm3.375 8.387V8.864c0-.138-.113-.24-.241-.24h-.782a.243.243 0 0 0-.241.24v6.273a.243.243 0 0 0 .241.24h.782c.128 0 .241-.108.241-.24zm-5.25 0V8.864c0-.138-.114-.24-.242-.24h-.782a.243.243 0 0 0-.241.24v6.273c0 .132.109.24.241.24h.782c.128 0 .242-.108.242-.24zm8.346-8.115v-.081a.743.743 0 0 0-.75-.75h-1.641a.762.762 0 0 0-.766.761v.042a.75.75 0 0 0 .75.75h1.635a.747.747 0 0 0 .75-.75l.022.028zM6.75 8.786v-.072a.75.75 0 0 0-.75-.75H4.364a.762.762 0 0 0-.765.761v.042a.75.75 0 0 0 .75.75h1.635a.747.747 0 0 0 .75-.75l.016.019zm0 6.039v-.063a.75.75 0 0 0-.75-.75H4.364a.762.762 0 0 0-.765.762v.027a.75.75 0 0 0 .75.75h1.635a.747.747 0 0 0 .75-.75l.016.024zm10.5.724v-.061a.75.75 0 0 0-.75-.75h-1.641a.762.762 0 0 0-.766.761v.027a.75.75 0 0 0 .75.75h1.635a.747.747 0 0 0 .75-.75l.022.023z"></path>
+                </svg>
+            </div>
+            <div class="logo-container gdrive">
+                <svg class="logo" viewBox="0 0 24 24">
+                    <path d="M4.433 22.396l4-6.929H24l-4 6.929H4.433zm3.566-6.929l-3.998 6.929L0 15.467 7.999 1.605l3.998 6.929-4 6.933z" fill="#0066DA"/>
+                    <path d="M15.998 15.467l-.999-1.732h-8L0 15.467h15.998z" fill="#00AC47"/>
+                    <path d="M8 1.605l4-1.605 8 13.862h-8l-4-12.257z" fill="#EA4335"/>
+                </svg>
+            </div>
+            <div class="logo-container mailchimp">
+                <svg class="logo" viewBox="0 0 24 24" fill="#000000">
+                    <path d="M10.54 19.97h3.38c.14 0 .26-.12.26-.26v-1.853a.26.26 0 0 0-.26-.261h-3.38a.26.26 0 0 0-.26.261v1.852c0 .144.117.261.26.261zm1.723-5.666c-.027-2.259 1.539-3.255 1.604-3.293-.875-1.284-2.234-1.454-2.718-1.48-1.16-.119-2.259.685-2.844.685-.587 0-1.494-.667-2.452-.651-1.26.02-2.42.731-3.07 1.853-1.313 2.267-.337 5.635.94 7.476.62.91 1.369 1.928 2.345 1.892.94-.037 1.297-.61 2.438-.61 1.137 0 1.458.61 2.456.591 1.013-.016 1.658-.931 2.277-1.844.72-.035 1.578-1.45 1.578-1.45a3.348 3.348 0 0 1-.04-.657c-.021-.017-2.467-.958-2.493-3.798zm-2.225-7.376c.518-.622.87-1.493.776-2.353-.75.03-1.658.501-2.194 1.12-.48.554-.901 1.452-.787 2.307.82.065 1.669-.421 2.205-1.074z"></path>
+                </svg>
+            </div>
+            <div class="logo-container buffer">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M23.784 12.015l-4.14-2.97-.03-.015c-.3-.18-.77-.14-.95.095-.18.234-.12.554.15.734l3.28 2.35-8.360 6.01-8.36-6.01 3.28-2.35c.27-.18.33-.5.15-.734-.18-.235-.65-.275-.95-.095l-.03.015-4.14 2.97c-.31.195-.31.465 0 .66l11.89 8.53c.31.18.57.18.88 0l11.89-8.53c.31-.195.31-.465 0-.66zm-16.765 6.83L.765 15.29c-.31-.18-.31-.45 0-.63l4.93-3.57c.3-.18.79-.18 1.09 0l4.93 3.57c.31.18.31.45 0 .63l-3.89 2.81-1.01.73c-.3.18-.79.18-1.09 0zm16.76-9.91l-11.89-8.56c-.3-.18-.57-.18-.87 0L.13 8.935c-.31.18-.31.45 0 .63l11.89 8.56c.3.18.57.18.87 0l11.89-8.56c.31-.18.31-.45 0-.63z"></path>
+                </svg>
+            </div>
+            <div class="logo-container github">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+                </svg>
+            </div>
+            <div class="logo-container zapier">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12zm0-2.5c-5.243 0-9.5-4.257-9.5-9.5S6.757 2.5 12 2.5s9.5 4.257 9.5 9.5-4.257 9.5-9.5 9.5zm4.008-10.655V7.959h-8.36v1.016l4.57 6.097-4.57 3.865v1.022h8.52v-2.324h-2.242v.781h-3.694l3.858-3.249-3.944-5.258h4.392V11.5h2.47v-.655z"></path>
+                </svg>
+            </div>
+            <div class="logo-container squarespace">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M3.52,10.47 C1.99,12 1.71,14.16 2.87,15.32 C4.03,16.47 6.19,16.19 7.73,14.67 C9.26,13.14 9.54,10.98 8.38,9.82 C7.22,8.66 5.06,8.94 3.52,10.47 L3.52,10.47 Z M16.27,9.53 C17.8,8 18.08,5.84 16.92,4.68 C15.76,3.53 13.6,3.81 12.07,5.33 C10.54,6.86 10.26,9.02 11.42,10.18 C12.58,11.34 14.74,11.06 16.27,9.53 L16.27,9.53 Z M15.32,16.92 C16.47,15.76 16.19,13.6 14.67,12.07 C13.14,10.54 10.98,10.26 9.82,11.42 C8.66,12.58 8.94,14.74 10.47,16.27 C12,17.81 14.16,18.09 15.32,16.92 L15.32,16.92 Z M21.13,8.38 C22.28,7.22 22,5.06 20.48,3.53 C18.95,1.99 16.79,1.71 15.63,2.87 C14.47,4.03 14.75,6.19 16.28,7.72 C17.81,9.26 19.97,9.54 21.13,8.38 L21.13,8.38 Z M21.13,15.62 C19.97,14.47 17.81,14.75 16.28,16.28 C14.75,17.81 14.47,19.97 15.63,21.13 C16.79,22.29 18.95,22.01 20.48,20.47 C22,18.94 22.28,16.78 21.13,15.62 L21.13,15.62 Z M8.38,21.13 C9.54,22.29 11.7,22.01 13.23,20.47 C14.76,18.94 15.04,16.78 13.88,15.62 C12.72,14.47 10.56,14.75 9.03,16.28 C7.5,17.81 7.22,19.97 8.38,21.13 L8.38,21.13 Z M2.87,8.68 C4.03,9.84 6.19,9.56 7.73,8.03 C9.26,6.5 9.54,4.34 8.38,3.18 C7.22,2.02 5.06,2.3 3.52,3.83 C1.99,5.36 1.71,7.52 2.87,8.68 L2.87,8.68 Z M8.68,2.87 C7.52,1.71 5.36,1.99 3.83,3.52 C2.3,5.05 2.02,7.21 3.18,8.37 C4.34,9.53 6.5,9.25 8.03,7.72 C9.56,6.19 9.84,4.03 8.68,2.87 L8.68,2.87 Z"></path>
+                </svg>
+            </div>
+            <div class="logo-container duolingo">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M13.818 4.058a.166.166 0 0 0-.095-.014c-1.222.204-2.073.93-2.073.93s-.019.013-.037.035c-.015-.012-.03-.024-.03-.024s-.85-.724-2.073-.928a.166.166 0 0 0-.095.014c-.119.05-.19.199-.178.403.085 1.314.382 2.309.84 3.146-1.453.67-2.612 2.08-2.612 3.837 0 1.618.857 3.055 2.202 3.823-.492.334-.816.9-.816 1.54 0 1.036.84 1.875 1.875 1.875 1.035 0 1.874-.84 1.874-1.874 0-.003-.002-.006-.002-.009.026 0 .055.01.082.01s.056-.01.082-.01c0 .003-.002.006-.002.01 0 1.034.84 1.874 1.875 1.874 1.035 0 1.875-.84 1.875-1.875 0-.64-.324-1.206-.816-1.54 1.345-.768 2.202-2.205 2.202-3.823 0-1.757-1.16-3.166-2.611-3.837.458-.837.754-1.832.839-3.146.011-.204-.06-.353-.178-.403zm-2.598 7.273c-.047 1.227.888 1.795 1.434 1.834 0 0-.15.701-.453.914-.29-.28-.747-.433-.98-.433-.234 0-.69.152-.982.433-.302-.213-.452-.914-.452-.914.546-.04 1.481-.607 1.434-1.834zm-1.244-4.548-.065.306c-.135.665-.31 1.192-.536 1.6a5.747 5.747 0 0 0-.242-.377c-.53-.739-1.397-1.224-2.386-1.224-1.609 0-2.914 1.305-2.914 2.914 0 1.608 1.305 2.913 2.914 2.913.078 0 .156-.003.233-.01-.083.524-.07 1.068-.07 1.068 0 .507.3.944.734 1.144-.314.09-.64.138-.98.138-1.974 0-3.577-1.602-3.577-3.577 0-1.481.9-2.756 2.185-3.313.182 1.085.726 1.383.726 1.383.248-.832.11-1.555.11-1.555s.072-.293.241-.52c.239-.322.696-.538 1.397-.727.139-.064.296-.124.463-.169zm3.489 0c.167.045.324.105.463.169.7.189 1.158.405 1.397.727.17.227.24.52.24.52s-.136.723.11 1.555c0 0 .544-.298.727-1.383 1.284.557 2.184 1.832 2.184 3.313 0 1.975-1.603 3.577-3.577 3.577-.34 0-.666-.048-.98-.138.432-.2.733-.637.733-1.144 0 0 .014-.544-.07-1.068.078.007.156.01.234.01 1.608 0 2.913-1.305 2.913-2.913 0-1.609-1.305-2.914-2.913-2.914-.99 0-1.856.485-2.386 1.224a5.747 5.747 0 0 0-.242.377c-.226-.408-.401-.935-.536-1.6l-.065-.306zM9.192 9.425c.69 0 1.25.56 1.25 1.25a1.25 1.25 0 0 1-2.5 0c0-.69.56-1.25 1.25-1.25Zm5.617 0c.69 0 1.25.56 1.25 1.25a1.25 1.25 0 0 1-2.5 0c0-.69.56-1.25 1.25-1.25Z"></path>
+                </svg>
+            </div>
+            <div class="logo-container facebook">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                </svg>
+            </div>
+            <div class="logo-container stripe">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M13.977 20.81c-3.074 0-5.649-1.253-5.649-3.66 0-2.31 2.417-3.64 6.055-3.64.637 0 1.211.057 1.71.147v-.458c0-1.266-.599-1.965-2.037-1.965-1.033 0-2.064.273-3.08.776l-.802-2.575c1.213-.61 2.54-1.002 4.287-1.002 3.26 0 4.912 1.71 4.912 4.684v5.242a15.36 15.36 0 0 1-5.395 1.45zm.57-4.912c-.325-.073-.788-.135-1.291-.135-1.482 0-2.35.52-2.35 1.33 0 .787.735 1.156 1.823 1.156 1.046 0 1.82-.236 1.82-.236v-2.115h-.002zm-13.5-2.099v.04c0 3.994 2.47 7.583 6.257 8.984l.297.103L8.18 19.3l-.082-.043C5.345 17.275 3.121 14.053 3.046 10v-.04H1.047zm16.65-10.65l-.553 3.68h2.81v3.12h-3.383l-.771 4.988c-.106.683-.13 1.187-.13 1.584 0 .776.428 1.106 1.293 1.106.388 0 .766-.04 1.14-.125l.565 3.074a11.93 11.93 0 0 1-2.76.345c-3.143 0-4.352-1.617-4.352-4.145 0-.63.068-1.33.2-2.16l.834-4.668H12.8V6.267h2.805l.413-2.66 4.093-.458h.01z"></path>
+                </svg>
+            </div>
+            <div class="logo-container tiktok">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path>
+                </svg>
+            </div>
+            <div class="logo-container netflix">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M5.398 0v.006c3.028 8.556 5.37 15.175 8.348 23.596 2.344.058 4.85.398 4.854.398-2.8-7.924-5.923-16.747-8.487-24zm8.489 0v9.63L18.6 22.951c-.043-7.86-.004-15.913.002-22.95zM5.398 1.05V24c1.873-.225 2.81-.312 4.715-.398v-9.22z"></path>
+                </svg>
+            </div>
+            <div class="logo-container discord">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"></path>
+                </svg>
+            </div>
+            
+            <!-- Repeat logos for continuous scrolling -->
+            <div class="logo-container cash-app">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M17.5,8.2c-0.7,0.7-1.8,0.7-2.4,0c-0.7-0.7-0.7-1.8,0-2.4
+                    c0.7-0.7,1.8-0.7,2.4,0C18.2,6.4,18.2,7.5,17.5,8.2z M12,19.2c-1.9,0-3.5-1.6-3.5-3.5c0-0.8,0.3-1.5,0.7-2.1l6.4-9.2
+                    c0.3-0.4,0.8-0.2,0.9,0.2c0,0.1,0,0.2,0,0.3v5.2c1.3,0.3,2.3,1.5,2.3,2.9c0,1.7-1.3,3-3,3c-0.2,0-0.4,0-0.6-0.1
+                    C14.5,18.1,13.3,19.2,12,19.2z M4.5,15.8c0.7-0.7,1.8-0.7,2.4,0c0.7,0.7,0.7,1.8,0,2.4c-0.7,0.7-1.8,0.7-2.4,0
+                    C3.8,17.5,3.8,16.4,4.5,15.8z"></path>
+                </svg>
+            </div>
+            <div class="logo-container meta">
+                <svg class="logo" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <path d="M12.53.02C13.84 0 15.14.01 16.44.02c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <section class="pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-7xl md:text-7xl font-bold leading- tight mb-6">
+                    <span class="gradient-text">AI-Powered</span><br>  Banana 
+                </h1>
+                <p class="text-lg text-gray-300 mb-9 max-w-lg">
+                    Transform your marketing strategy with our cutting-edge AI tools. Get better results, faster insights, and higher ROI with 1173 Marketing's fully deployed websites and AI solutions for your business.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://sales.1173mktg.com" class="px-6 py-3 rounded-md text-lg font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all text-center">
+                        Get Started
+                    </a>
+                    <a href="https://1173mktg.com" class="px-6 py-3 rounded-md text-lg font-medium text-white border border-gray-800 hover:border-gray-600 transition-all text-center">
+                        Book Demo
+                    </a>
+                </div>
+                <div class="mt-8 flex items-center space-x-4">
+                    <div class="flex -space-x-2">
+                        <img class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-800" src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                        <img class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-800" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                        <img class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-800" src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-400">Trusted by 500+ marketers</p>
+                        <div class="flex items-center">
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <span class="text-sm text-gray-300 ml-1">4.9/5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="card-glass rounded-2xl p-1 hover-scale">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Marketing Dashboard" class="rounded-xl w-full h-auto">
+                </div>
+                <div class="absolute -bottom-6 -left-6 card-glass rounded-xl p-4 w-40 hover-scale hidden md:block">
+                    <div class="flex items-center mb-2">
+                        <div class="h-3 w-3 rounded-full bg-green-400 mr-2"></div>
+                        <p class="text-xs font-medium">Campaign Active</p>
+                    </div>
+                    <p class="text-sm font-bold">+42% Engagement</p>
+                    <p class="text-xs text-gray-400">Last 30 days</p>
+                </div>
+                <div class="absolute -top-6 -right-6 card-glass rounded-xl p-4 w-40 hover-scale hidden md:block">
+                    <div class="flex items-center mb-2">
+                        <div class="h-3 w-3 rounded-full bg-purple-400 mr-2"></div>
+                        <p class="text-xs font-medium">AI Optimized</p>
+                    </div>
+                    <p class="text-sm font-bold">+68% ROI</p>
+                    <p class="text-xs text-gray-400">Current quarter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <p class="text-sm uppercase tracking-wider text-gray-400 mb-2">Trusted by industry leaders</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=TechCorp" alt="TechCorp" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=GlobalBank" alt="GlobalBank" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=ShopEasy" alt="ShopEasy" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=InnoSoft" alt="InnoSoft" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=PrimeMedia" alt="PrimeMedia" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="flex justify-center">
+                <img src="https://via.placeholder.com/120x40/1e293b/ffffff?text=DataSphere" alt="DataSphere" class="h-8 opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Powerful Features for <span class="gradient-text">Growing Companies</span></h2>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto">Our platform combines AI intelligence with marketing expertise to deliver unparalleled results</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-robot text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">AI Campaign Optimization</h3>
+                <p class="text-gray-400 mb-4">Our algorithms continuously analyze and optimize your campaigns in real-time for maximum performance.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-purple-500 to-purple-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-chart-line text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Predictive Analytics</h3>
+                <p class="text-gray-400 mb-4">Forecast campaign performance and customer behavior with our advanced predictive models.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-users text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Audience Segmentation</h3>
+                <p class="text-gray-400 mb-4">Leverage AI to identify and target micro-segments with personalized messaging.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <!-- Feature 4 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-500 to-pink-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-envelope-open-text text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Automated Content Creation</h3>
+                <p class="text-gray-400 mb-4">Generate high-performing ad copy, emails, and social posts in seconds with our AI writer.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <!-- Feature 5 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-green-500 to-green-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-dollar-sign text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">ROI Tracking</h3>
+                <p class="text-gray-400 mb-4">Get clear insights into which campaigns are driving real revenue and which need adjustment.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <!-- Feature 6 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-yellow-500 to-yellow-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-comments text-white text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Omnichannel Integration</h3>
+                <p class="text-gray-400 mb-4">Manage all your marketing channels from one unified dashboard with seamless integration.</p>
+                <a href="https://sales.1173mktg.com" class="text-blue-400  font-medium flex items-center">
+                    Learn more
+                    <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">How <span class="gradient-text">AI Auotmation</span> Works</h2>
+                <p class="text-lg text-gray-400 mb-8">Our platform makes sophisticated marketing accessible to businesses of all sizes through intelligent automation.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold">1</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Connect Your Data</h3>
+                            <p class="text-gray-400">Integrate with your CRM, website, ad platforms, and other data sources in minutes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold">2</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Set Your Goals</h3>
+                            <p class="text-gray-400">Define your objectives - whether it's leads, sales, or brand awareness.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold">3</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Let AI Work Its Magic</h3>
+                            <p class="text-gray-400">Our system analyzes data, identifies patterns, and optimizes campaigns automatically.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold">4</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Track & Improve</h3>
+                            <p class="text-gray-400">Monitor performance and get actionable insights to continually improve results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="card-glass rounded-2xl p-1 hover-scale">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Marketing Dashboard" class="rounded-xl w-full h-auto">
+                </div>
+                <div class="absolute -bottom-6 -right-6 card-glass rounded-xl p-4 w-40 hover-scale hidden lg:block">
+                    <div class="flex items-center mb-2">
+                        <div class="h-3 w-3 rounded-full bg-blue-400 mr-2"></div>
+                        <p class="text-xs font-medium">AI Suggestions</p>
+                    </div>
+                    <p class="text-sm font-bold">+24 Optimizations</p>
+                    <p class="text-xs text-gray-400">Available now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our <span class="gradient-text">Clients Say</span></h2>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto">Don't just take our word for it - hear from marketers who've transformed their results</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Testimonial 1 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="flex items-center mb-4">
+                    <div class="flex-shrink-0 mr-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Sarah Johnson</h4>
+                        <p class="text-sm text-gray-400">CMO, TechCorp</p>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">"1173 Marketing's AI tools helped us increase our campaign ROI by 78% in just three months. The predictive analytics are incredibly accurate."</p>
+                <div class="flex">
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                </div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="flex items-center mb-4">
+                    <div class="flex-shrink-0 mr-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/65.jpg" alt="Michael Chen">
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Michael Chen</h4>
+                        <p class="text-sm text-gray-400">Director of Marketing, ShopEasy</p>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">"The automated content creation saves us dozens of hours each week while producing higher converting copy than our human writers."</p>
+                <div class="flex">
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="card-glass rounded-xl p-6 hover-scale">
+                <div class="flex items-center mb-4">
+                    <div class="flex-shrink-0 mr-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/28.jpg" alt="Jessica Williams">
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Jessica Williams</h4>
+                        <p class="text-sm text-gray-400">Head of Growth, PrimeMedia</p>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">"We've reduced our customer acquisition costs by 62% since implementing 1173 Marketing's AI optimization across our campaigns."</p>
+                <div class="flex">
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star-half-alt text-yellow-400"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="card-glass rounded-2xl p-8 md:p-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Marketing?</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">Join hundreds of marketers who are achieving better results with less effort using 1173 Marketing's AI-powered platform.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://sales.1173mktg.com" class="px-8 py-4 rounded-md text-lg font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all">
+                    Get Started
+                </a>
+                <a href="https://sales.1173mktg.com" class="px-8 py-4 rounded-md text-lg font-medium text-white border border-gray-600 hover:border-gray-400 transition-all">
+                    Book Demo
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-4"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="black-bg border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <div class="col-span-2">
+                    <h3 class="text-2xl font-bold gradient-text mb-4">1173 Marketing LLC</h3>
+                    <p class="text-gray-400 mb-6">AI-powered solutions that deliver real results for businesses of all sizes.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://x.com/1173Marketing" target="_blank"  class="text-gray-400 ">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/1173marketing" target="_blank"  class="text-gray-400 ">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                     <a href="https://www.instagram.com/1173marketing" target="_blank" class="text-gray-400 ">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Solutions</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://sales.1173mktg.com" class="text-gray-400 ">AI Campaign Optimization</a></li>
+                        <li><a href="https://sales.1173mktg.com" class="text-gray-400 ">Predictive Analytics</a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://help.gohighlevel.com/support/home" class="text-gray-400 ">Help Center</a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://1173mktg.com" class="text-gray-400 ">About Us</a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 ">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 "></a></li>
+                        <li><a href="#" class="text-gray-400 "></a></li>
+                        <li><a href="#" class="text-gray-400 "></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 1173 Marketing LLC. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="https://www.gohighlevel.com/privacy-policy" class="text-gray-500  text-sm">Privacy Policy</a>
+                    <a href="https://www.gohighlevel.com/terms-of-service" class="text-gray-500  text-sm">Terms of Service</a>
+                    <a href="https://www.gohighlevel.com/cookies-policy" class="text-gray-500  text-sm">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Add this JavaScript to the end of your file, just before the closing </body> tag -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Specifically target the main heading text that contains "AI-Powered Solutions"
+    const mainHeading = document.querySelector('h1, h2, .hero-heading, .main-heading');
+    
+    if (mainHeading && mainHeading.textContent.includes('Banana')) {
+      // Replace "Banana" with span for rotating text
+      mainHeading.innerHTML = mainHeading.innerHTML.replace('Banana', '<span class="rotating-text">Chatbot</span>');
+      
+      // Set up the word rotation
+      const words = ["Chatbot", "Texting", "Email", "CRM", "SaaS"];
+      const rotatingText = document.querySelector('.rotating-text');
+      let wordIndex = 0;
+      
+      // Set initial text
+      rotatingText.textContent = words[0];
+      
+      // Start the rotation
+      setInterval(function() {
+        // Fade out
+        rotatingText.style.opacity = 0;
+        rotatingText.style.transform = 'translateY(10px)';
+        
+        // After fade out, change text and fade in
+        setTimeout(function() {
+          wordIndex = (wordIndex + 1) % words.length;
+          rotatingText.textContent = words[wordIndex];
+          rotatingText.style.opacity = 1;
+          rotatingText.style.transform = 'translateY(0)';
+        }, 500);
+      }, 2000);
+    }
+  });
+</script>
+
+
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeIn');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.hover-scale').forEach(card => {
+            observer.observe(card);
+        });
+		 document.addEventListener('DOMContentLoaded', function() {
+            // Clone logos to ensure smooth infinite scroll
+            const track = document.querySelector('.logo-track');
+            const logoContainers = document.querySelectorAll('.logo-container');
+            
+            // Calculate the required width for smooth scrolling
+            const containerWidth = logoContainers.length * 80; // 60px width + 20px margin
+            
+            // Set animation duration based on number of logos
+            const scrollDuration = Math.max(30, logoContainers.length);
+            document.querySelector('.logo-track').style.animationDuration = scrollDuration + 's';
+            
+            // Adjust animation speed for different screen sizes
+            function adjustAnimation() {
+                const windowWidth = window.innerWidth;
+                const scaleFactor = Math.max(0.5, Math.min(1.5, windowWidth / 1200));
+                document.querySelector('.logo-track').style.animationDuration = (scrollDuration / scaleFactor) + 's';
+            }
+            
+            window.addEventListener('resize', adjustAnimation);
+            adjustAnimation();
+        });
+    </script>
+</body>
+</html>

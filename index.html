@@ -9,6 +9,60 @@
 
 <style>
 
+	/* Base styles for feature blocks */
+.feature-block {
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #1e293b;
+  transition: all 0.3s ease;
+}
+
+/* Hover effects for each feature block type */
+.feature-block.ai-campaign:hover {
+  box-shadow: 0 0 15px 5px rgba(56, 189, 248, 0.5); /* Blue glow */
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+.feature-block.predictive-analytics:hover {
+  box-shadow: 0 0 15px 5px rgba(168, 85, 247, 0.5); /* Purple glow */
+  transform: translateY(-5px);
+  border-color: #a855f7;
+}
+
+.feature-block.audience-segmentation:hover {
+  box-shadow: 0 0 15px 5px rgba(34, 197, 94, 0.5); /* Green glow */
+  transform: translateY(-5px);
+  border-color: #22c55e;
+}
+
+.feature-block.content-creation:hover {
+  box-shadow: 0 0 15px 5px rgba(249, 115, 22, 0.5); /* Orange glow */
+  transform: translateY(-5px);
+  border-color: #f97316;
+}
+
+.feature-block.roi-tracking:hover {
+  box-shadow: 0 0 15px 5px rgba(236, 72, 153, 0.5); /* Pink glow */
+  transform: translateY(-5px);
+  border-color: #ec4899;
+}
+
+.feature-block.omnichannel:hover {
+  box-shadow: 0 0 15px 5px rgba(234, 179, 8, 0.5); /* Yellow glow */
+  transform: translateY(-5px);
+  border-color: #eab308;
+}
+
+/* Optional: Add text glow on hover */
+.feature-block:hover h3 {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+
+
   /* Style for the rotating text */
   .rotating-text {
     color: #00FF00;
@@ -193,8 +247,8 @@
           
 
                   <a href="https://sales.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Pricing</a>
-                            <a href="https://cb.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Chatbot</a>
-                            <a href="https://form.jotform.com/251376456334157" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Contact</a>
+                            <a href="https://cb.1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Chat Bot</a>
+                            <a href="https://1173mktg.com" class="nav-link px-3 py-2 text-base font-medium text-gray-300 ">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -221,7 +275,7 @@
                 <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Solutions</a>
                 <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Pricing</a>
                 <a href="https://1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Case Studies</a>
-                <a href="https://cb.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Chatbot</a>
+                <a href="https://cb.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300  hover:bg-gray-700">Chat Bot</a>
                 <a href="https://sales.1173mktg.com" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 mt-2">Get Started</a>
             </div>
         </div>
@@ -408,7 +462,7 @@
                         Get Started
                     </a>
                     <a href="https://cb.1173mktg.com" class="px-6 py-3 rounded-md text-lg font-medium text-white border border-gray-800 hover:border-gray-600 transition-all text-center">
-                        Get Chatbot
+                        Get Chat Bot
                     </a>
                 </div>
                 <div class="mt-8 flex items-center space-x-4">
@@ -489,9 +543,15 @@
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+
+
+
             <!-- Feature 1 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
-                <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mb-4">
+ <div class="feature-block ai-campaign" "card-glass rounded-xl p-6 hover-scale">
+               <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mb-4">
                     <i class="fas fa-robot text-white text-xl"></i>
                 </div>
                 <h3 class="text-xl font-bold mb-3">AI Campaign Optimization</h3>
@@ -503,7 +563,7 @@
             </div>
             
             <!-- Feature 2 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
+            <div class="feature-block predictive-analytics""card-glass rounded-xl p-6 hover-scale">
                 <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-purple-500 to-purple-600 flex items-center justify-center mb-4">
                     <i class="fas fa-chart-line text-white text-xl"></i>
                 </div>
@@ -516,7 +576,7 @@
             </div>
             
             <!-- Feature 3 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
+            <div class="feature-block audience-segmentation""card-glass rounded-xl p-6 hover-scale">
                 <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-center justify-center mb-4">
                     <i class="fas fa-users text-white text-xl"></i>
                 </div>
@@ -529,7 +589,7 @@
             </div>
             
             <!-- Feature 4 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
+            <div class="feature-block content-creation""card-glass rounded-xl p-6 hover-scale">
                 <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-500 to-pink-600 flex items-center justify-center mb-4">
                     <i class="fas fa-envelope-open-text text-white text-xl"></i>
                 </div>
@@ -542,7 +602,7 @@
             </div>
             
             <!-- Feature 5 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
+            <div class="feature-block roi-tracking""card-glass rounded-xl p-6 hover-scale">
                 <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-green-500 to-green-600 flex items-center justify-center mb-4">
                     <i class="fas fa-dollar-sign text-white text-xl"></i>
                 </div>
@@ -555,7 +615,7 @@
             </div>
             
             <!-- Feature 6 -->
-            <div class="card-glass rounded-xl p-6 hover-scale">
+            <div class="feature-block omnichannel""card-glass rounded-xl p-6 hover-scale">
                 <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-yellow-500 to-yellow-600 flex items-center justify-center mb-4">
                     <i class="fas fa-comments text-white text-xl"></i>
                 </div>
@@ -718,7 +778,7 @@
                     Get Started
                 </a>
                 <a href="https://cb.1173mktg.com" class="px-8 py-4 rounded-md text-lg font-medium text-white border border-gray-600 hover:border-gray-400 transition-all">
-                    Get Chatbot
+                    Get Chat Bot
                 </a>
             </div>
             <p class="text-sm text-gray-500 mt-4"></p>
@@ -736,8 +796,9 @@
                         <a href="https://x.com/1173Marketing" target="_blank"  class="text-gray-400 ">
                             <i class="fab fa-twitter text-xl"></i>
                         </a>
-                
-                     
+                        <a href="https://www.linkedin.com/in/1173marketing" target="_blank"  class="text-gray-400 ">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
                      <a href="https://www.instagram.com/1173marketing" target="_blank" class="text-gray-400 ">
                             <i class="fab fa-instagram text-xl"></i>
                         </a>
@@ -749,7 +810,7 @@
                     <ul class="space-y-3">
                         <li><a href="https://sales.1173mktg.com" class="text-gray-400 ">AI Campaign Optimization</a></li>
                         <li><a href="https://sales.1173mktg.com" class="text-gray-400 ">Predictive Analytics</a></li>
-                        <li><a href="https://cb.1173mktg.com" class="text-gray-400 ">Custom Chatbot</a></li>
+                        <li><a href="https://cb.1173mktg.com" class="text-gray-400 ">Custom Chat Bot</a></li>
                         <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
                         <li><a href="https://1173mktg.com" class="text-gray-400 "></a></li>
                     </ul>
@@ -770,7 +831,7 @@
                     <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Company</h4>
                     <ul class="space-y-3">
                         <li><a href="https://1173mktg.com" class="text-gray-400 ">About Us</a></li>
-                        <li><a href="https://form.jotform.com/251376456334157" class="text-gray-400 ">Contact</a></li>
+                        <li><a href="https://1173mktg.com" class="text-gray-400 ">Contact</a></li>
                         <li><a href="#" class="text-gray-400 "></a></li>
                         <li><a href="#" class="text-gray-400 "></a></li>
                         <li><a href="#" class="text-gray-400 "></a></li>
